@@ -20,5 +20,23 @@ fileImg.forEach(button => {
 
 closebtn.addEventListener('click', ()=> {
     dialog.close();
-}
-);
+});
+
+
+/*For the exit thingy*/
+
+const exitInput = document.getElementById('exit-pass');
+const exitBtn = document.getElementById('exit-button');
+const PASSCODE_true = "111" 
+
+exitBtn.addEventListener('click', function () {
+    const userAnswer = exitInput.value.trim();
+
+    if (userAnswer === PASSCODE_true){
+        window.location.href = "out.html";
+    }
+
+    else{
+        window.location.href = "fail.html";
+    }
+})

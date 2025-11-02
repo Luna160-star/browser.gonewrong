@@ -42,8 +42,8 @@ body{
 dialog{
     border: none;
     padding: 0;
-    width: 400px;
-    height: 300px;
+    width: 700px;
+    height: 400px;
     background: white;
     color: black;
 }
@@ -52,16 +52,18 @@ dialog::backdrop{
     background: rgba(0,0,0,0.5);
 }
 
-.pop-title{
+#pop-title{
     display: flex;
-    padding: 20px 28px;
-    font-size: 20px;
+    padding: 30px 38px; 
     align-items: center;
 }
 
-#name{
+.name{
     font-weight: 600;
-    font-family:'Gill Sans', 'Gill Sans MT';
+    padding-left: 8px;
+    font-family: "Pixelify Sans", sans-serif;
+    line-height: 1.2;
+    font-size: 2rem;
 }
 
 #close{
@@ -69,10 +71,53 @@ dialog::backdrop{
     color: black;
     font-size: 20px;
     cursor: pointer;
-    padding: 2px 4px;
+    padding-left: 6px;
+    padding-right: 6px;
+    padding-top: 6px;
+    padding-bottom: 6px;
+    position: absolute;
+    left: 97%;
+    top: 0%;
 }
 
 #pop-body{
     font-size: 22px;
-    font-family: 20px;  /* I will change later to pixel probably when i import the font*/
+    font-family: "Pixelify Sans", sans-serif;
+}
+
+button{
+    background-color: blue;
+}
+
+#exit{
+    width: 350px;
+    display: flex;
+    flex-direction: column;
+    box-shadow: 0 2px 8px black;
+    border-radius: 15px;
+    background: black;
+}
+
+#exit-code{
+    font-size: 18px;
+}
+
+#exit-pass{
+    padding: 10px;
+    font-size: 1.1em;
+    border-radius: 8px;
+    background: #19264b;
+    color: #d5f1ff;
+    margin-bottom: 10px;
+    outline: none;
+}
+
+#exit-button{
+    background: #3fd65a;
+    font-weight: bold;
+    border: none;
+    border-radius: 7px;
+    padding: 9px 0;
+    font-size: 1.1em;
+    cursor: pointer;
 }

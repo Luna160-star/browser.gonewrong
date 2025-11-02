@@ -5,6 +5,11 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.8">
     <title> Home </title>
     <link rel="stylesheet" href="game.css">
+
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Griffy&display=swap');
+        @import url('https://fonts.googleapis.com/css2?family=Pixelify+Sans:wght@400..700&display=swap');
+    </style>
 </head>
 <body>
 
@@ -29,12 +34,24 @@
     <dialog id="file-pop1">
         <div id="pop-title">
             <span class="name"> Name of the clue here </span>
-        <button id="close" aria-label="close popup"> X </button>
+        <button id="close" aria-label="close popup"> x </button>
+        <hr>
+
         </div>
+        
         <div id="pop-body">
             All the clues I wanna write does here <!--I will add at the end after the lore-->
         </div>
     </dialog>
+
+
+<!---for the exit button-->
+
+<div id="exit">
+    <label for="exit-code" id="exit-label"> Enter Password</label>
+    <input type="text" placeholder="Enter Code" id="exit-pass" autocomplete="off" maxlength="10">
+    <button id="exit-button"> Leave </button>
+</div>
 
     <script src="game.js"></script>
 </body>
