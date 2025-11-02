@@ -1,0 +1,42 @@
+html, body{
+    margin: 0;
+    background-color: black;
+}
+
+body{
+    background: radial-gradient(black, rgb(81, 80, 80));
+    animation: flicker 2s infinite;
+
+}
+
+@keyframes flicker{
+    0%, 100%{ 
+        opacity: 1;
+     }
+
+    50% {
+         opacity: 0.95;
+        }
+
+    75%{
+        opacity: 0.5;
+    }
+}
+
+.first{
+    background-color: white;
+    width: 500px;
+    height: 300px;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    left: 350px;
+    top: 150px;
+}
+
+p{
+    font-family: "Pixelify Sans", sans-serif;
+    text-align: center;
+    padding-top: 70px;
+    font-size: 30px;
+}
