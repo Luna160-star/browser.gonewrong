@@ -1,29 +1,33 @@
 html, body{
     margin: 0;
-    background-color: black;
+    background: url("maybepic.gif");
+    background-position: fixed;
+    overflow: hidden;
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 
 body{
-    background: radial-gradient(black, rgb(81, 80, 80));
+    background: radial-gradient(circle at center, black 0%, rgb(81, 80, 80)100%);
     animation: flicker 2s infinite;
 
 }
 
 @keyframes flicker{
-    0%, 100%{ 
+    0%, 26%, 34%, 100%{ 
         opacity: 1;
      }
 
-    50% {
+    50%, 19%, 96%, 11%, 23% {
          opacity: 0.95;
         }
 
-    75%{
+    75%, 99%, 87%, 3%{
         opacity: 0.5;
     }
 }
 
-.first{
+.second{
     background-color: white;
     width: 500px;
     height: 300px;
@@ -32,10 +36,12 @@ body{
     position: absolute;
     left: 350px;
     top: 150px;
+    color: red;
+    border: solid 3px black;
 }
 
 p{
-    font-family: "Pixelify Sans", sans-serif;
+    font-family: "Griffy", system-ui;  
     text-align: center;
     padding-top: 70px;
     font-size: 30px;
