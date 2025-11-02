@@ -1,0 +1,28 @@
+html, body{
+    margin: 0;
+    background: url("maybepic.gif");
+    background-position: fixed;
+    background-size: cover;
+    background-repeat: no-repeat;
+    overflow: hidden;
+}
+
+.second{
+    background-color: white;
+    width: 500px;
+    height: 300px;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    left: 350px;
+    top: 150px;
+    color: red;
+    border: solid 3px black;
+}
+
+p{
+    font-family: "Griffy", system-ui;
+    text-align: center;
+    padding-top: 70px;
+    font-size: 30px;
+}
