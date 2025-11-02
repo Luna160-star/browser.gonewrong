@@ -8,10 +8,8 @@ const popupBody = document.getElementById('pop-body');
 fileImg.forEach(button => {
     button.addEventListener('click', () => {
         
-        const clue1= button.getAttribute('data-clue') || ("Message here");
-
-        popupTitle.textContent = "Type the clue title here";
-        popupBody.textContent = "The clue here";
+    popupTitle.textContent = button.getAttribute('data-title');
+    popupBody.textContent = button.getAttribute('data-body');
 
         dialog.showModal();
 

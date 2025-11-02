@@ -1,5 +1,7 @@
 body{
-    background-color: blue;
+    background: url("background.png");
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 
 .img1{
