@@ -48,6 +48,7 @@ dialog{
     height: 400px;
     background: white;
     color: black;
+    
 }
 
 dialog::backdrop{
@@ -58,6 +59,7 @@ dialog::backdrop{
     display: flex;
     padding: 30px 38px; 
     align-items: center;
+    padding-left: 10px;
 }
 
 .name{
@@ -85,6 +87,7 @@ dialog::backdrop{
 #pop-body{
     font-size: 22px;
     font-family: "Pixelify Sans", sans-serif;
+    padding-left: 10px
 }
 
 button{
@@ -123,3 +126,4 @@ button{
     font-size: 1.1em;
     cursor: pointer;
 }
+

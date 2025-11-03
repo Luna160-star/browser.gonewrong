@@ -9,7 +9,7 @@ fileImg.forEach(button => {
     button.addEventListener('click', () => {
         
     popupTitle.textContent = button.getAttribute('data-title');
-    popupBody.textContent = button.getAttribute('data-body');
+    popupBody.innerHTML = button.getAttribute('data-body');
 
         dialog.showModal();
 

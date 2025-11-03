@@ -3,13 +3,14 @@ p{
 }
 
 .bodybox{
-    width: 400px;
+    width: 500px;
     height: 300px;
     position: absolute;
     top: 125px;
     left: 400px;
     background-color: white;
     padding: 40px 40px;
+    
 
 }
 
@@ -22,3 +23,15 @@ p{
     font-family: "Pixelify Sans", sans-serif;
 
 }
+
+button{
+    font-size: 32px;
+    border-radius: 16px;
+    transition: 0.3s ease;
+    font-family: "Pixelify Sana", sans-serif;
+    background-color: rgb(91, 113, 238);
+}
+
+button:hover{
+    transform: scale(0.9) rotate(-3deg);
+    }
