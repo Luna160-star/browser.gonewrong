@@ -41,6 +41,37 @@ body{
     width: 50px;
 }
 
+.img5{
+    position: absolute;
+    left: 700px;
+    top: 300px;
+    background-image: url("foldenclose.png");
+    height: 50px;
+    width: 50px;
+}
+
+.img6{
+    position: relative;
+    left: 800px;
+    top: 300px;
+    background-image: url("foldenclose.png");
+    height: 50px;
+    width: 50px;
+}
+
+.img7{
+    position: relative;
+    left: 800px;
+    top: 300px;
+    background-image: url("foldenclose.png");
+    height: 50px;
+    width: 50px;
+}
+
+.img7{
+
+}
+
 dialog{
     border: none;
     padding: 0;

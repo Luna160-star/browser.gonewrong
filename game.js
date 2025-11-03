@@ -1,4 +1,4 @@
-const fileImg = document.querySelectorAll('.file1, .file2, .file3, .file4');
+const fileImg = document.querySelectorAll('.file1, .file2, .file3, .file4, .file5, .file6, .file7');
 
 const dialog= document.getElementById('file-pop1');
 const closebtn= document.getElementById('close');
