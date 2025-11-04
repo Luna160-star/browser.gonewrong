@@ -25,7 +25,7 @@ closebtn.addEventListener('click', ()=> {
 
 const exitInput = document.getElementById('exit-pass');
 const exitBtn = document.getElementById('exit-button');
-const PASSCODE_true = "111" 
+const PASSCODE_true = "ESCAPE2810" 
 
 exitBtn.addEventListener('click', function () {
     const userAnswer = exitInput.value.trim();
