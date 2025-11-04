@@ -4,11 +4,14 @@
 
 <hr>
 
-Instructions:
+<h1>Instructions: </h1>
+<h3>
 1. You can get to know the lore more in detail in the game.
 2. Use the clues given in the screen and find out the passcode.
 (its pretty easy!)
 3. If you cant take guess, always try again!
+4. Please read all the files and study the images, you will find a pattern.
+</h3>
 
 <hr>
 
@@ -16,6 +19,7 @@ Instructions:
 -me
 -used chatgpt ( a little ) for debugging in javascript since im still learning it.
 -all the images used are credited to the rightful owned, i do not own them, but im grateful :p
+-the triangle image is made by me using Canva!
 
 <hr>
 
