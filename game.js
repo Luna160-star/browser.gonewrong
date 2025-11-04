@@ -25,12 +25,14 @@ closebtn.addEventListener('click', ()=> {
 
 const exitInput = document.getElementById('exit-pass');
 const exitBtn = document.getElementById('exit-button');
-const PASSCODE_true = "ESCAPE2810" 
+const PASSCODE_true1 = "ESCAPE2107"  
+const PASSCODE_true2 = "ESCAPE21007"
+
 
 exitBtn.addEventListener('click', function () {
     const userAnswer = exitInput.value.trim();
 
-    if (userAnswer === PASSCODE_true){
+    if (userAnswer === PASSCODE_true1 || userAnswer === PASSCODE_true2) {
         window.location.href = "out.html";
     }
 

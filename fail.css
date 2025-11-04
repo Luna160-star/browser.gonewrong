@@ -31,10 +31,16 @@ button{
     font-size: 32px;
     border-radius: 16px;
     transition: 0.3s ease;
-    font-family: "Pixelify Sana", sans-serif;
+    font-family: "Pixelify Sans", sans-serif;
     background-color: rgb(91, 113, 238);
+    
 }
 
 button:hover{
     transform: scale(0.9);
     }
+
+.second button{
+    position: absolute;
+    margin-left: 20px;
+}

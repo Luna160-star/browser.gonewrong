@@ -161,5 +161,11 @@ button{
     cursor: pointer;
 }
 
+.img{
+    position: absolute;
+    left: 800px;
+    top: 200px;
+
+}
 
 
